@@ -13,6 +13,7 @@
     "ajv": "^8.12.0",
     "ajv-keywords": "^5.1.0",
     "axios": "^1.7.9",
+    "jotai": "^2.10.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -22,7 +23,8 @@
     "swagger-ui-express": "^5.0.1",
     "swagger-ui-react": "^5.18.2",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "zod": "^3.23.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,7 +32,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_d2b067f5887786e"
   },
   "eslintConfig": {
     "extends": [
@@ -61,6 +64,7 @@
     "@storybook/react": "^8.4.7",
     "@storybook/react-webpack5": "^8.4.7",
     "@storybook/test": "^8.4.7",
+    "chromatic": "^11.20.0",
     "eslint-plugin-storybook": "^0.11.1",
     "openapi-typescript-codegen": "^0.29.0",
     "prop-types": "^15.8.1",
